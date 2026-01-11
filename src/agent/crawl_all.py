@@ -1,8 +1,8 @@
 import asyncio
 
-from ..sources.github import search_github_tools
-from ..sources.pypi import search_pypi_tools
-from ..ranking import rank_tools
+from src.sources.github import search_github_tools
+from src.sources.pypi import search_pypi_tools
+from src.ranking import rank_tools
 
 
 async def crawl_all():
