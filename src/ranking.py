@@ -1,6 +1,6 @@
 from typing import Iterable
 
-from ..models import Tool
+from src.models import Tool
 
 
 def naive_score(tool: Tool) -> Tool:
