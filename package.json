@@ -1,0 +1,12 @@
+{
+  "name": "ds-tool-discovery-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python -m src.agent.run_dev",
+    "crawl": "python -m src.agent.crawl_all",
+    "mcp-server": "python -m src.mcp.server"
+  },
+  "dependencies": {}
+}
