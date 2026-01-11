@@ -1,6 +1,6 @@
 import asyncio
 import time
-from .crawl_all import crawl_all
+from src.agent.crawl_all import crawl_all
 
 INTERVAL_SECONDS = 60 * 30  # every 30 minutes
 
